@@ -1,0 +1,20 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.closePanel",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+down",
+        "command": "workbench.action.terminal.focusNext",
+    },
+    {
+        "key": "shift+alt+cmd+down",
+        "command": "workbench.action.nextPanelView",
+    },
+]

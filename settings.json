@@ -1,0 +1,25 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Monokai",
+    "prettier.printWidth": 100,
+    "prettier.arrowParens": "always",
+    "prettier.semi": false,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 16,
+    "eslint.packageManager": "yarn",
+    "editor.formatOnSave": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.trailingComma": "es5",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Inconsolata",
+    "editor.suggest.localityBonus": true,
+    "workbench.colorCustomizations": {},
+    "editor.tokenColorCustomizations": {
+        "keywords": "#f5563b",
+        "boolean": "#f5563b",
+    }
+}
