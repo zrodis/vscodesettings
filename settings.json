@@ -19,6 +19,5 @@
     "workbench.colorCustomizations": {},
     "editor.tokenColorCustomizations": {
         "keywords": "#f5563b",
-        "boolean": "#f5563b",
     }
 }
