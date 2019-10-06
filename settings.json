@@ -1,7 +1,6 @@
 {
     "atomKeymap.promptV3Features": true,
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Monokai",
     "prettier.printWidth": 100,
     "prettier.arrowParens": "always",
     "prettier.semi": false,
