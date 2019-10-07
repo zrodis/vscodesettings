@@ -10,11 +10,37 @@
         "when": "terminalFocus"
     },
     {
-        "key": "alt+cmd+down",
+        "key": "alt+cmd+left",
         "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
     },
     {
         "key": "shift+alt+cmd+down",
         "command": "workbench.action.nextPanelView",
+    },
+    {
+        "key": "cmd+t",
+        "command": "extension.transpose",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "extension.expandToLine",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "extension.splitIntoLines",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+j",
+        "command": "extension.joinLines",
+        "when": "editorFocus"
     },
 ]
