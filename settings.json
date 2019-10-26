@@ -19,5 +19,10 @@
     "workbench.colorCustomizations": {},
     "editor.tokenColorCustomizations": {
         "keywords": "#f5563b",
-    }
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.occurrencesHighlight": false,
 }
