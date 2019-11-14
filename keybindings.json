@@ -43,4 +43,14 @@
         "command": "extension.joinLines",
         "when": "editorFocus"
     },
+     {
+        "key": "shift+ctrl+right",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+ctrl+right",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorFocus"
+    },
 ]
