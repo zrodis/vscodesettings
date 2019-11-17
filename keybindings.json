@@ -1,6 +1,8 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    {
+    
+   //integrated terminal keys
+     {
         "key": "ctrl+`",
         "command": "workbench.action.terminal.focus"
     },
@@ -10,8 +12,16 @@
         "when": "terminalFocus"
     },
     {
+        "key": "ctrl+alt+cmd+down",
+         "command": "workbench.action.closePanel",
+    },
+    {
+        "key": "ctrl+alt+cmd+up",
+        "command": "workbench.action.toggleMaximizedPanel",
+    },
+    {
         "key": "alt+cmd+left",
-        "command": "workbench.action.terminal.focusNext",
+        "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
     {
@@ -19,10 +29,8 @@
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     },
-    {
-        "key": "shift+alt+cmd+down",
-        "command": "workbench.action.nextPanelView",
-    },
+    
+    //editor keys
     {
         "key": "cmd+t",
         "command": "extension.transpose",
@@ -31,16 +39,6 @@
     {
         "key": "cmd+l",
         "command": "extension.expandToLine",
-        "when": "editorFocus"
-    },
-    {
-        "key": "shift+cmd+l",
-        "command": "extension.splitIntoLines",
-        "when": "editorFocus"
-    },
-    {
-        "key": "cmd+j",
-        "command": "extension.joinLines",
         "when": "editorFocus"
     },
      {
