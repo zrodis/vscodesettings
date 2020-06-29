@@ -1,28 +1,51 @@
 {
-    "atomKeymap.promptV3Features": true,
-    "window.zoomLevel": 0,
-    "prettier.printWidth": 100,
-    "prettier.arrowParens": "always",
-    "prettier.semi": false,
-    "prettier.tabWidth": 4,
-    "prettier.singleQuote": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.fontSize": 16,
+    "editor.formatOnPaste": true,
+    "window.zoomLevel": 1,
+    "breadcrumbs.enabled": true,
+    "window.nativeTabs": true,
     "eslint.packageManager": "yarn",
-    "editor.formatOnSave": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.trailingComma": "es5",
-    "terminal.integrated.shell.osx": "/bin/bash",
+    "eslint.run": "onSave",
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "Inconsolata",
-    "editor.suggest.localityBonus": true,
-    "workbench.colorCustomizations": {},
-    "editor.tokenColorCustomizations": {
-        "keywords": "#f5563b",
-    },
-    "editor.rulers": [
-        80,
-        120
+    "eslint.validate": [
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
     ],
-    "editor.occurrencesHighlight": false,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 19,
+    "atomKeymap.promptV3Features": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "editor.fontFamily": "Inconsolata-Bold",
+    "editor.suggest.localityBonus": true,
+    "workbench.colorCustomizations": {
+        "diffEditor.insertedTextBackground": "#60f8f13b"
+    },
+    "editor.tokenColorCustomizations": {
+        "keywords": "#f5563b"
+    },
+    "favorites.storageFilePath": "../vscfavorites/.favorites.json",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": true,
+    "javascript.suggest.enabled": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.columnSelection": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "emmet.excludeLanguages": ["markdown"]
 }

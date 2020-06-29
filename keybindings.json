@@ -1,7 +1,5 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    
-   //integrated terminal keys
      {
         "key": "ctrl+`",
         "command": "workbench.action.terminal.focus"
@@ -29,7 +27,6 @@
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     },
-    
     //editor keys
     {
         "key": "cmd+t",
@@ -37,11 +34,6 @@
         "when": "editorFocus"
     },
     {
-        "key": "cmd+l",
-        "command": "extension.expandToLine",
-        "when": "editorFocus"
-    },
-     {
         "key": "shift+ctrl+right",
         "command": "editor.action.smartSelect.grow",
         "when": "editorFocus"
@@ -51,4 +43,24 @@
         "command": "editor.action.smartSelect.shrink",
         "when": "editorFocus"
     },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+cmd+right",
+        "command": "-editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    }
 ]
